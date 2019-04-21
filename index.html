@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="img/scooter.png" type="image/png">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Самокаты</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 col-md-3">
+					<div class="header-logo">
+						<div class="header-logo__logo">
+							<a href="index.html">
+								<img src="img/scooter.png" alt="Scooter-Logo">
+							</a>
+						</div>
+						<div class="header-logo_text">
+							<div class="header-logo__title">
+								samokat-store
+							</div>
+							<div class="header-logo__note">
+								Магазин самокатов
+							</div>
+						</div>
+
+						<div class="mobile-icon">
+							<img src="img/call-answer.png" alt="Call-icon" class="open">
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="header-address">
+						<div class="header-address__icon">
+							<img src="img/header/map-marker.png" alt="Map-marker">
+						</div>
+						<div class="header-address__text">г. Москва, ул. Строителей,<br> д. 14, пав. 71</div>
+					</div>
+				</div>
+				<div class="col-2">
+					<div class="header-social">
+						<a href="https://vk.com"></a>
+
+						<a href="https://www.facebook.com"></a>
+
+						<a href="https://www.instagram.com">	</a>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="header-phone">
+						<div class="header-phone__phone">
+							<a href="tel:+79567777777">
+								<img src="img/call-icon.png" alt="Phone-icon">
+								<span>7 (956) 777 77 77</span>
+							</a>
+						</div>
+						<button class="button open">Заказать бесплатный звонок</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="main-offer">
+			<div class="container">
+
+				<div class="main-offer__text">
+					<div class="main-offer__title">Стильные и безопасные самокаты FOX PRO <br> по цене от 4 000р</div>
+					<div class="main-offer__note">Теперь с бесплатной доставкой и сборкой по Москве</div>
+				</div>
+
+				<a href="#features" class="main-offer__down"><img src="img/main/down.png" alt="Down-icon"></a>
+
+				<div class="row">
+					<div class="col-8 col-md-4">
+						<div class="main-offer_form main-offer_form-main">
+							<form action="main-offer" method="POST" class="form mobile-main">
+								<div class="main-offer_form__title">Запишитесь на <span>бесплатный</span><br> тест-драйв любой модели самоката</div>
+								<div class="form-enter">
+									<img src="img/main/user.png" alt="User-icon">
+									<input type="text" class="form-name" placeholder="Ваше имя" required name="name">
+								</div>
+								<div class="form-enter">
+									<img src="img/main/mail.png" alt="Mail-icon">
+									<input type="email" class="form-email" placeholder="Ваш e-mail" required name="email">
+								</div>
+								<div class="form-enter">
+									<img src="img/main/call.png" alt="Call-icon">
+									<input type="tel" class="form-phone" placeholder="Ваш телефон" required name="phone">
+								</div>
+								<div class="consent">
+									<input type="checkbox" class="form-checkbox__input" checked required id="consent" name="consent">
+									<label for="consent" class="form-checkbox__note">Я даю согласие на обработку<br> персональных данных</label>
+								</div>
+								<input type="submit" class="button button-form send" value="Записаться на тест-драйв">
+							</form>
+
+							<div class="mobile-buttons">
+								<div class="mobile-buttons__title">Запишитесь на <span>бесплатный</span><br> тест-драйв любой<br> модели самоката</div>
+								<button class="button open mobile-buttons__one">Записаться</button>
+								<button class="button button-o open mobile-buttons__two">Перезвоните мне</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-md-5">
+						<div class="main-offer__man">
+							<img src="img/main/man.png" alt="Man" height="602" width="306">
+						</div>
+					</div>
+					<div class="col-0 col-md-3">
+						<div class="main-offer__girl">
+							<img src="img/main/girl.png" alt="Girl" height="466" width="180">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="back"></div>
+	</div>
+
+	<div class="features" id="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="features-item">
+						<div class="features__img"><img src="img/features/delivery-truck.png" alt="Truck"></div>
+						<div class="features__title">Бесплатная доставка и сборка </div>
+						<div class="features__subtitle">Бесплатная доставка по Москве<br> в пределах МКАД</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="features-item">
+						<div class="features__img"><img src="img/features/certificate.png" alt="Certificate"></div>
+						<div class="features__title">Официальный поставщик</div>
+						<div class="features__subtitle">Мы являемся официальным<br> поставщиком самокатов FOX PRO</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="features-item">
+						<div class="features__img"><img src="img/features/scooter.png" alt="Scooter"></div>
+						<div class="features__title">Устройте тест-драйв</div>
+						<div class="features__subtitle">Перед покупкой вы можете устроить<br> пробный заезд</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="items">
+		<div class="container">
+			<div class="items__title">Самокаты FOX PRO</div>
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="column">
+						<div class="items-item">
+							<div class="items-item__img">
+								<img src="img/items/item1.png" alt="scooter">
+							</div>
+							<div class="items-item__title">Fox Pro V-tech</div>
+							<div class="items-item_buttons">
+								<input type="radio" name="items1" id="item11"><label for="item11">
+									<img src="img/items/ellipse-green.png" alt="ellipse">
+								</label>
+								<input type="radio" name="items1" id="item12" checked><label for="item12">
+									<img src="img/items/ellipse-black.png" alt="ellipse">
+								</label>
+								<input type="radio" name="items1" id="item13"><label for="item13">
+									<img src="img/items/ellipse-red.png" alt="ellipse">
+								</label>
+							</div>
+							<div class="items-item__descr">
+								Вес: 4кг<br>
+								Максимальная нагрузка: 100кг<br>
+								Высота руля: 72см<br>
+								Длина деки: 53см<br>
+							</div>
+							<div class="items-item__price">4 000 р</div>
+							<button class="button open">Заказать со скидкой</button>
+							<button class="button-o">хочу Тест-драйв</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="column">
+						<div class="items-item">
+							<div class="items-item__img">
+								<img src="img/items/item2.png" alt="scooter">
+							</div>
+							<div class="items-item__title">Fox Pro Raw</div>
+							<div class="items-item_buttons">
+								<input type="radio" name="item2" id="item21"><label for="item21">
+									<img src="img/items/ellipse-green.png" alt="ellipse">
+								</label>
+								<input type="radio" name="item2" id="item22" checked><label for="item22">
+									<img src="img/items/ellipse-orange.png" alt="ellipse">
+								</label>
+								<input type="radio" name="item2" id="item23"><label for="item23">
+									<img src="img/items/ellipse-red.png" alt="ellipse">
+								</label>
+							</div>
+							<div class="items-item__descr">
+								Вес: 4кг<br>
+								Максимальная нагрузка: 100кг<br>
+								Высота руля: 62см<br>
+								Длина деки: 50см<br>
+							</div>
+							<div class="items-item__price">5 500 р</div>
+							<button class="button open">Заказать со скидкой</button>
+							<button class="button-o">хочу Тест-драйв</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="column">
+						<div class="items-item">
+							<div class="items-item__img">
+								<img src="img/items/item3.png" alt="scooter">
+							</div>
+							<div class="items-item__title">Fox Pro gp</div>
+							<div class="items-item_buttons">
+								<input type="radio" name="item3" id="item31"><label for="item31">
+									<img src="img/items/ellipse-green.png" alt="ellipse">
+								</label>
+								<input type="radio" name="item3" id="item32" checked><label for="item32">
+									<img src="img/items/ellipse-blue.png" alt="ellipse">
+								</label>
+								<input type="radio" name="item3" id="item33"><label for="item33">
+									<img src="img/items/ellipse-red.png" alt="ellipse">
+								</label>
+							</div>
+							<div class="items-item__descr">
+								Вес: 7кг<br>
+								Максимальная нагрузка: 100кг<br>
+								Высота руля: 91см<br>
+								Длина деки: 53см<br>
+							</div>
+							<div class="items-item__price">6 000 р</div>
+							<button class="button open">Заказать со скидкой</button>
+							<button class="button-o">хочу Тест-драйв</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="main-offer_form">
+						<form action="main-offer" method="POST" class="form">
+							<div class="main-offer_form__title">Оптравьте заявку на звонок и ваш <span>личный менеджер</span> свяжется с вам в течении <span>10 минут</span></div>
+							<div class="form-enter">
+								<img src="img/main/user.png" alt="User-icon">
+								<input type="text" class="form-name" placeholder="Ваше имя" required name="name">
+							</div>
+							<div class="form-enter">
+								<img src="img/main/mail.png" alt="Mail-icon">
+								<input type="email" class="form-email" placeholder="Ваш e-mail" required name="email">
+							</div>
+							<div class="form-enter">
+								<img src="img/main/call.png" alt="Call-icon">
+								<input type="tel" class="form-phone" placeholder="Ваш телефон" required name="phone">
+							</div>
+							<div class="consent">
+								<input type="checkbox" class="form-checkbox__input" checked required id="footer-form" name="consent">
+								<label for="footer-form" class="form-checkbox__note">Я даю согласие на обработку<br> персональных данных</label>
+							</div>
+							<input type="submit" class="button button-form" value="Заказать бесплатный звонок">
+						</form>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="footer__img">
+						<img src="img/footer/woman.png" alt="Woman">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="nav-footer">
+		<div class="container">
+			<div class="row align-items-center text-center">
+				<div class="col-12 col-md-3">
+					<div class="nav-footer-logo">
+						<div class="nav-footer-logo__logo">
+							<a href="index.html">
+								<img src="img/scooter-white.png" alt="Scooter-Logo">
+							</a>
+						</div>
+						<div class="nav-footer-logo_text">
+							<div class="nav-footer-logo__title">
+								samokat-store
+							</div>
+							<div class="nav-footer-logo__note">
+								Магазин самокатов
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-3">
+					<div class="nav-footer-address">
+						<div class="nav-footer-address__icon">
+							<img src="img/nav-footer/map-marker copy.png" alt="Map-marker">
+						</div>
+						<div class="nav-footer-address__text">г. Москва, ул. Строителей,<br> д. 14, пав. 71</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-2 order-2 order-md-0">
+					<div class="nav-footer-social">
+						<a href="https://vk.com"></a>
+
+						<a href="https://www.facebook.com"></a>
+
+						<a href="https://www.instagram.com">	</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 order-1 order-md-0">
+					<div class="nav-footer-phone">
+						<div class="nav-footer-phone__phone">
+							<a href="tel:+79567777777">
+								<img src="img/nav-footer/call-answer copy 3.png" alt="Phone-icon">
+								<span>7 (956) 777 77 77</span>
+							</a>
+						</div>
+						<button class="button open">Заказать бесплатный звонок</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="overlay">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-4">
+						<div class="main-offer_form">
+										<form action="main-offer" method="POST" class="form">
+											<div class="main-offer_form__title">Оптравьте заявку на звонок и ваш <span>личный менеджер</span> свяжется с вам в течении <span>10 минут</span></div>
+											<div class="form-enter">
+												<img src="img/main/user.png" alt="User-icon">
+												<input type="text" class="form-name" placeholder="Ваше имя" required name="name">
+											</div>
+											<div class="form-enter">
+												<img src="img/main/mail.png" alt="Mail-icon">
+												<input type="email" class="form-email" placeholder="Ваш e-mail" required name="email">
+											</div>
+											<div class="form-enter">
+												<img src="img/main/call.png" alt="Call-icon">
+												<input type="tel" class="form-phone" placeholder="Ваш телефон" required name="phone">
+											</div>
+											<div class="consent">
+												<input type="checkbox" class="form-checkbox__input" checked required id="modal" name="consent">
+												<label for="modal" class="form-checkbox__note">Я даю согласие на обработку<br> персональных данных</label>
+											</div>
+											<input type="submit" class="button button-form" value="Заказать бесплатный звонок">
+										</form>
+									</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="overlay-two">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-4">
+						<div class="thank">
+							<h4>Заявка успешно отправлена</h4>
+							<button class="button close">Вернуться назад</button>
+						</div>				
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
